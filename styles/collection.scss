@@ -1,0 +1,51 @@
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+    &__collection {
+        padding-left: 5em;
+        &__title {
+            font-size: 5em;
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 5em;
+            
+        }
+
+        &__image {
+            width: 60%;
+            height: auto;
+        }
+
+        &__description {
+            font-family: Helvetica;
+            font-size: 1.5em;
+            padding-right: 40%;padding-bottom: 5em;
+        }
+    }
+
+    &__desing {
+        padding-top: 3em;
+
+        &__title {
+            font-size: 2em;
+        }
+
+        &__image {
+            width: 73%;
+            height: auto;
+        }
+    }
+
+    &__creative {
+        padding-top: 3em;
+
+        &__title {
+            font-size: 2em;
+        }
+
+        &__image {
+            width: 83%;
+            height: auto;
+        }
+    }
+}
