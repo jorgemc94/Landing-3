@@ -1,22 +1,24 @@
 .company {
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: 45% 55%;
     background-color: whitesmoke;
     padding-left: 4em;
     padding-bottom: 5em;
 
     &__content {
+        width: 100%;
+        height: auto;
         
         &__image {
             padding-bottom: 2em;
-            width: 80%;
+            width: 100%;
             height: auto;
         }
 
         &__description {
             font-family: Helvetica;
             font-size: 1.9em;
-            padding-right: 20%;
+            padding-right: 10%;
             padding-bottom: 1em;
         }
 
@@ -29,25 +31,28 @@
     }
 
     &__product {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
 
         &__title {
+            text-align: center;
+            width: 100%;
             padding-top: 1em;
             font-size: 5em;
         }
 
         &__article {
             font-family: Helvetica;
-            width: 100%;
+            width: 90%;
             display: flex;
             border: 1px solid black;
             background-color: #fff;
             border-radius: 2em;
             left: 50%;
-            transform: translateX(-6%);
+            transform: translateX(0%);
 
             &__content {
                 padding-top: 3em;
@@ -72,14 +77,15 @@
 
             &__left {
                 width: 45%;
-                height: auto;
-                padding-right: 1.5em;
+                height: 100%;
+                margin-right: 2em;
+                margin-left: 1.5em;
+                
             }
 
             &__right {
                 width: 45%;
-                height: auto;
-                padding-right: 1em;
+                height: 100%;
             }
         }
     }

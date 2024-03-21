@@ -3,11 +3,11 @@
     grid-template-columns: repeat(3 , 1fr);
     
     &__collection {
-        padding-left: 5em;
+        padding-left: 7em;
         &__title {
             font-size: 5em;
             font-family: 'Times New Roman', Times, serif;
-            padding-right: 5em;
+            padding-right: 6em;
             
         }
 
@@ -18,34 +18,34 @@
 
         &__description {
             font-family: Helvetica;
-            font-size: 1.5em;
-            padding-right: 40%;padding-bottom: 5em;
+            font-size: 1.7em;
+            padding-right: 40%;
+            padding-bottom: 3em;
         }
     }
 
     &__desing {
-        padding-top: 3em;
+        padding-top: 4em;
 
         &__title {
             font-size: 2em;
         }
 
         &__image {
-            width: 73%;
+            width: 80%;
             height: auto;
         }
     }
 
     &__creative {
-        padding-top: 3em;
+        padding-top: 4em;
+        &__image {
+            width: 90%;
+            height: auto;
+        }
 
         &__title {
             font-size: 2em;
-        }
-
-        &__image {
-            width: 83%;
-            height: auto;
         }
     }
 }
